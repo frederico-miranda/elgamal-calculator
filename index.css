@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+body {
+  font-family: 'Electrolize', sans-serif;
+}
+
+section {
+  display: block;
+}
+
+#elgamal-calculator {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#elgamal-calculator * {
+  max-width: 768px;
+}
+
+.inputs, .outputs {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+.inputs > *, .outputs > * {
+  margin: 0.5em;
+}
+
+.inputs > label, .outputs > label {
+  align-self: start;
+}
